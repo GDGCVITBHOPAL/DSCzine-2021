@@ -4,11 +4,12 @@
 <head>
 	<title>Using turn.js and the new zoom feature</title>
 	<meta name="viewport" content="width = 1050, user-scalable = no" />
-	<link rel="icon" type="image/png" href="../../pics/favicon.png" />
-	<script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
-	<script type="text/javascript" src="../../extras/jquery-ui-1.8.20.custom.min.js"></script>
-	<script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
-	<script type="text/javascript" src="../../lib/hash.js"></script>
+	<link rel="icon" type="image/png" href="./pics/profile.png" />
+	<script type="text/javascript" src="./js/jquery-ui-1.8.20.custom.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.min.1.7.js"></script>
+	<script type="text/javascript" src="./js/modernizr.2.5.3.min.js"></script>
+	<script type="text/javascript" src="./js/hash.js"></script>
+
 </head>
 
 <body>
@@ -390,9 +391,9 @@
 
 			yepnope({
 				test: Modernizr.csstransforms,
-				yep: ['../../lib/turn.min.js'],
-				nope: ['../../lib/turn.html4.min.js', 'css/jquery.ui.html4.css'],
-				both: ['../../lib/zoom.min.js', 'css/jquery.ui.css', 'js/magazine.js', 'css/magazine.css'],
+				yep: ['./js/turn.min.js'],
+				nope: ['./js/turn.html4.min.js', 'css/jquery.ui.html4.css'],
+				both: ['./js/zoom.min.js', 'css/jquery.ui.css', 'js/magazine.js', 'css/magazine.css'],
 				complete: loadApp
 			});
 

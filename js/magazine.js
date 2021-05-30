@@ -1,5 +1,5 @@
 /*
- * Magazine sample
+ * DSC Magazine sample - 2021
 */
 
 function addPage(page, book) {
